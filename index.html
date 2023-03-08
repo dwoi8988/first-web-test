@@ -13,41 +13,7 @@
 </script>
     <title>Welcome</title>
     <meta charset="utf-8">
-    <style>
-        body{
-            margin:0;
-        }
-       a {
-        color:black;
-        text-decoration: none;
-       } 
-
-       h1 {
-        font-size: 400%;
-        text-align: center;
-        border-bottom:1px solid gray;
-        margin:0;
-        padding:20px;
-       }
-       ol{
-        border-right:1px solid gray;
-        width:100px;
-        margin:0px;
-        padding:20px;
-       }
-       #grid{
-        display:grid;
-        grid-template-columns: 150px 1fr;
-       }
-
-       #grid ol{
-        padding-left: 33px;
-       }
-
-       #article{
-        padding-left: 25px;
-       }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 
@@ -61,17 +27,18 @@
     </ol>
 <div id="article">
 <h2>WEB</h2>
-<p>
+<div id="video_wrap">    
     <iframe width="560" 
         height="315" 
         src="https://www.youtube.com/embed/J8hzJxb0rpc" 
         title="YouTube video player" 
         frameborder="0" 
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-        allowfullscreen>
+        allowfullscreen
+        >
 
     </iframe> 
-</p>
+</div>
 <p>
     The World Wide Web (WWW), commonly known as the 
     <a href="https://www.w3.org/"
